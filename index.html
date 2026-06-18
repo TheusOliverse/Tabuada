@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="paineis">
+            <h1 id="painel" class="painel"></h1>
+            <div style="display: flex; align-items: center; gap: 20px;">
+                <p id="pontos"></p>
+                <h1 class="white" id="k3">|</h1>
+                <p class="white" id="round"></p>
+            </div>
+        </div>
+
+        <div class="game">
+            <div class="inputs">
+                <label>Pergunta</label>
+                <input type="text" id="tela" disabled>
+                <input placeholder="Digite aqui..." type="text" id="resposta">
+            </div>
+
+            <div class="buttons">
+                <button id="k2" onclick="start()" title="Começar">Começar</button>
+                <button id="k1" onclick="teste()" title="Responder">Responder</button>
+            </div>
+        </div>
+
+        <footer style="filter: drop-shadow(0 0 10px white); display: flex; align-items: center; gap: 10px;">
+            <h1
+                style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;">
+                Oliver</h1>
+            <ion-icon style="font-size: 30px;" name="rocket-outline"></ion-icon>
+        </footer>
+    </nav>
+
+    <script type="module" src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

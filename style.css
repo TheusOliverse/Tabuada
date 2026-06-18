@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    top: 0;
+    left: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --cor_1: rgb(48, 48, 48);
+    --black: black;
+}
+
+body {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7XhLzW5rd5sTEzPS7vD7H8xW9xqBTkxxNyA&s);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.inputs {
+    border-radius: 20px;
+    box-shadow: 0 0 10px var(--black);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: var(--cor_1);
+}
+
+.buttons {
+    border-radius: 20px;
+    box-shadow: 0 0 20px black;
+    border: 2px solid yellow;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: var(--cor_1);
+}
+
+.game {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 25px;
+}
+
+input {
+    transition: 0.5s;
+    background: white;
+    font-size: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px white;
+    border: none;
+    padding: 5px;
+}
+
+.try_again {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.paineis {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-size: 25px;
+}
+
+footer {
+    width: 100%;
+    background: var(--cor_1);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-top: 2px solid rgb(105, 105, 105);
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    backdrop-filter: blur(10px);
+}
+
+label {
+    color: aliceblue;
+}
+
+#tela {
+    text-align: center;
+    width: 200px;
+}
+
+#painel {
+    color: rgb(255, 255, 255);
+}
+
+#pontos {
+    color: rgb(255, 255, 255);
+}
+
+.white {
+    color: white;
+}
+
+.red {
+    transition: 1s;
+    background: rgb(255, 124, 124);
+}
+
+.green {
+    transition: 1s;
+    background: rgb(130, 255, 124);
+}
