@@ -27,6 +27,7 @@ let m = 0;
 let p = "";
 
 function start() {
+    p = "";
     tela.classList.remove("green")
     tela.classList.remove("red")
     m += 1
