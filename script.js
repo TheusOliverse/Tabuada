@@ -57,7 +57,7 @@ function teste() {
         pontos -= 10;
         pontuacao.innerHTML = `A sua pontuação é: ${pontos}`;
         tela.value = p;
-        p = 0;
+        p = "";
     } console.log(n);
     n = 0;
     k1.style.display = 'none';
